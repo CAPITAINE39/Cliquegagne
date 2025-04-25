@@ -75,7 +75,11 @@
   <h1>Clique & Gagne</h1>
   <p>Partage à 15 amis et 5 groupes pour débloquer tes mégas !</p>
   <p>À chaque ami, tu gagnes 100 Mo. Plus tu partages, plus tu gagnes !</p>
-  <button class="btn" onclick="alert('Bonne chance ! Vous avez commencé à partager !')">Commencer maintenant</button>
+  
+  <!-- Redirection vers la page de partage -->
+  <a href="partager.html">
+    <button class="btn">Commencer maintenant</button>
+  </a>
 
   <div class="gift">
     🎁 Cadeau spécial : Si tu partages avec 20 amis, tu débloques 500 Mo de plus !
